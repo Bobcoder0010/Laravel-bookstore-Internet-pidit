@@ -20,7 +20,7 @@ return new class extends Migration
                 $table->integer('price');
                 $table->timestamps();
             });
-        }    }
+        }    
 
     /**
      * Reverse the migrations.
