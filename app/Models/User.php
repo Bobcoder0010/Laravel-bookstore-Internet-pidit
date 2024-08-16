@@ -20,6 +20,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'provider',      // Add this line
+        'provider_id',   // Add this line
     ];
 
     /**
